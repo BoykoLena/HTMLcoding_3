@@ -187,6 +187,27 @@ header p {
   margin-bottom: 20px;
 }
 
+.itd-open-source {
+  background-color: #1b1b1b;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.itd-open-source a {
+  text-decoration: none;
+  color: grey;
+}
+
+.itd-open-source a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 @media (max-width: 992px) {
   .itd-nav-wrapper {
     padding: 15px;
