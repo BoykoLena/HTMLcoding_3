@@ -188,4 +188,8 @@ header p {
   .main {
     padding: 20px;
   }
+
+  .itd-camera-description {
+    font-size: 16px;
+  }
 }
