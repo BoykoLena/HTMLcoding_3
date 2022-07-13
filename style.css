@@ -177,6 +177,16 @@ header p {
   color: #ffffff;
 }
 
+.itd-description-contact {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 992px) {
   .itd-nav-wrapper {
     padding: 15px;
