@@ -75,6 +75,35 @@ header p {
   border: 1px solid #272142;
 }
 
+.main {
+  background-color: #1b1b1b;
+  padding: 100px;
+}
+
+.itd-val {
+  display: flex;
+  align-items: center;
+}
+
+.itd-rights {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.itd-footer-nav a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 200ms ease-in-out;
+}
+
+.itd-footer-nav a:hover {
+  color: grey;
+}
+
 @media (max-width: 992px) {
   .itd-nav-wrapper {
     padding: 15px;
@@ -87,16 +116,8 @@ header p {
   header p {
     max-width: 300px;
   }
+
+  .main {
+    padding: 20px;
+  }
 }
-
-/* header {
-
-.main {
-  background-color: #1b1b1b;
-  padding: 100px;
-  /* display: flex; */
-/* }
-
-.main img {
-  padding: 20px;
-} */
