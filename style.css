@@ -20,7 +20,7 @@ header {
   padding: 40px 130px;
 }
 
-.itd-nav a {
+.itd-nav {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -31,22 +31,26 @@ header {
   transition: all 200ms ease-in-out;
 }
 
-.itd-nav a:hover {
+.itd-nav:hover {
   color: gray;
+}
+
+.itd-active {
+  font-size: 20px;
 }
 
 .itd-logo {
   font-weight: bold;
 }
 
-header h1 {
+h1 {
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
-header h2 {
+h2 {
   font-size: 72px;
   font-weight: 700;
   margin-top: 25px;
@@ -104,12 +108,70 @@ header p {
   color: grey;
 }
 
+.itd-about {
+  background-color: #1b1b1b;
+}
+
+.itd-description {
+  padding: 70px 140px 70px 40px;
+}
+
+.itd-description-item {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #f65282;
+}
+
+.itd-description h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.itd-description p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.itd-icon a {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.itd-icon a:hover {
+  color: grey;
+}
+
+.itd-camera-wrapper {
+  margin-top: 30px;
+  background-color: #2d2727;
+  padding: 20px;
+}
+
+.itd-camera-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+
 @media (max-width: 992px) {
   .itd-nav-wrapper {
     padding: 15px;
   }
 
-  header h2 {
+  h2 {
     font-size: 44px;
   }
 
